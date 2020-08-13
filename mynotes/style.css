@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(246, 246, 243);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    height: 120px;
+}
+
+.menu button,
+.note-panel .save,
+.note-panel .cancel {
+    padding: 12px 25px;
+    background: none;
+    border: 1px silid pink;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color .3s, color .3s
+}
+
+.menu button:hover,
+.note-panel .save:hover,
+.note-panel .cancel:hover {
+    background-color: palevioletred;
+    color: #dddddd;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.add {
+    margin-right: 20px;
+}
+
+.note-area {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.note {
+    margin: 40px 20px;
+    width: 240px;
+    background-color: #efbbcf;
+    border: 1px solid black;
+}
