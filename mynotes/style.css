@@ -33,7 +33,7 @@ body {
 .menu button:hover,
 .note-panel .save:hover,
 .note-panel .cancel:hover {
-    background-color: palevioletred;
+    background-color: #efbbcf;
     color: #dddddd;
 }
 
