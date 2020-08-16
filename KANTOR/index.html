@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7f69a4861f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Exchange Rate app</h1>
+        <p>sprawdz aktualne kursy walut!</p>
+        <div class="app-body">
+            <div class="section-left">
+                <input type="number" class="amount-one" value="1">
+                <select id="currency-one">
+        <option value="PLN" selected>PLN</option>
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+        <option value="EURO">EURO</option>
+        <option value="CHF">CHF</option>
+    </select>
+            </div>
+            <button class="swap">
+        <u class="fas fa-retweet"></u>
+    </button>
+            <div class="section-right">
+                <input type="number" class="amount-two">
+                <select id="currency-two">
+                <option value="PLN" >PLN</option>
+                <option value="USD"selected>USD</option>
+                <option value="GBP">GBP</option>
+                <option value="EURO">EURO</option>
+                <option value="CHF">CHF</option>
+            </select>
+            </div>
+
+        </div>
+        <p class="rate-info"></p>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
